@@ -1,11 +1,45 @@
 body{
     background-color: gainsboro;
+    background-image: url('./Images/StarNight.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: 'Adobe Garamond Pro Regular';
+    color: #679267;
 }
 
 h1{
     font-family: 'Adobe Garamond Pro Regular';
+    color: #e34234;
+}
+
+h2{
+    font-family: 'Adobe Garamond Pro Regular';
+    color: #e34234;
+}
+
+h3{
+    font-family: 'Adobe Garamond Pro Regular';
+    color: #e34234;
+}
+
+pre{
+    font-family: 'Adobe Garamond Pro Italic';
+    text-align: center;
+    color: whitesmoke;
+    border-radius: 50%;
+    border: 2px solid grey;
+    padding: 50px;
+    margin: 50px;
 }
 
 p{
     font-family: 'Adobe Garamond Pro Regular';
+    /*color: rgb(141, 209, 40);*/
+    color: rgb(207, 198, 198);
+    font-size: x-large;
+}
+
+a{
+    color: greenyellow;
 }
