@@ -27,9 +27,9 @@ pre{
     font-family: 'Adobe Garamond Pro Italic';
     text-align: center;
     color: whitesmoke;
-    border-radius: 50%;
+    /*border-radius: 50%;
     border: 2px solid grey;
-    padding: 50px;
+    padding: 50px;*/
     margin: 50px;
 }
 
