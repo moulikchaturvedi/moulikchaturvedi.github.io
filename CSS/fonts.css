@@ -10,7 +10,7 @@
     font-family: 'Adobe Garamond Pro Italic';
     font-style: normal;
     font-weight: normal;
-    src: local('Adobe Garamond Pro Italic'), url('./Fonts/AGaramondPro-Italic.woff') format('woff');
+    src: local('Adobe Garamond Pro Italic'), url('Fonts/AGaramondPro-Italic.woff') format('woff');
     }
     
 
