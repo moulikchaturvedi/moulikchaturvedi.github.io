@@ -9,6 +9,15 @@
     background-color: transparent;
 }
 
+.navigationbar{
+    position: sticky;
+    position: -webkit-sticky; /* for Safari */
+    top: 0pt;
+    width: 100%;
+    left: 0pt;
+    padding-bottom: 1px;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -77,9 +86,10 @@ ul {
     margin: 0;
     padding:inherit;
     background-color: #1f2833;
-  }
+    
+  } 
 
-  li{
+li{
     display:inline-block;
     padding: 8px; /* remove the line breaks before and after each list item, to display them on one line */
 }
