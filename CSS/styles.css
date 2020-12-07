@@ -5,35 +5,52 @@
     width: auto;
 }
 
+.contactID{
+    background-color: transparent;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
 body{
-    background-color: gainsboro;
-    background-image: url('./Images/StarNight.jpg');
+    /*background-color: gainsboro;
+    background-image: url('./Images/StarNight.jpg');*/
+
+    background-color: #0B0C10;
+
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
     font-family: 'Adobe Garamond Pro Regular';
-    color: #679267;
+    /*color: #679267;*/
+
+    color: #C5C6C7;
 }
 
 h1{
     font-family: 'Adobe Garamond Pro Regular';
-    color: #e34234;
+    /*color: #e34234;*/
+    color: #66FCF1;
 }
 
 h2{
     font-family: 'Adobe Garamond Pro Regular';
-    color: #e34234;
+    color:#66FCF1;
 }
 
 h3{
     font-family: 'Adobe Garamond Pro Regular';
-    color: #e34234;
+    color: #66FCF1;
 }
 
 pre{
     font-family: 'Adobe Garamond Pro Italic';
     text-align: center;
-    color: whitesmoke;
+    /*color: whitesmoke;*/
+
+    color: #C5C6C7;
+
     /*border-radius: 50%;
     border: 2px solid grey;
     padding: 50px;*/
@@ -42,11 +59,37 @@ pre{
 
 p{
     font-family: 'Adobe Garamond Pro Regular';
-    /*color: rgb(141, 209, 40);*/
-    color: rgb(207, 198, 198);
+    /*color: rgb(141, 209, 40);
+    color: rgb(207, 198, 198);*/
+
+    color: #C5C6C7;
+
     font-size: x-large;
 }
 
 a{
-    color: greenyellow;
+    color: #66FCF1;
 }
+
+/* Navigation Menu Bar Styling */
+ul {
+    list-style-type: none; /* removes the bullets */
+    margin: 0;
+    padding:inherit;
+    background-color: #1f2833;
+  }
+
+  li{
+    display:inline-block;
+    padding: 8px; /* remove the line breaks before and after each list item, to display them on one line */
+}
+
+li a{
+    display: block;
+    padding: 14px 16px;
+}
+
+li a:hover{
+    background-color: #0B0C10;
+}
+/* Navigation menu styling ends */
