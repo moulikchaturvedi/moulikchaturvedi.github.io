@@ -1,3 +1,10 @@
+/*
+Normal text color: #C5C6C7
+Heading Color: #66FCF1
+Background color: #0B0C10
+Navigation Bar color: #1f2833
+*/
+
 .center{
     display: block;
     margin-left: auto;
@@ -23,23 +30,16 @@ html{
 }
 
 body{
-    /*background-color: gainsboro;
-    background-image: url('./Images/StarNight.jpg');*/
-
     background-color: #0B0C10;
-
+    color: #C5C6C7;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
     font-family: 'Adobe Garamond Pro Regular';
-    /*color: #679267;*/
-
-    color: #C5C6C7;
 }
 
 h1{
     font-family: 'Adobe Garamond Pro Regular';
-    /*color: #e34234;*/
     color: #66FCF1;
 }
 
@@ -56,8 +56,6 @@ h3{
 pre{
     font-family: 'Adobe Garamond Pro Italic';
     text-align: center;
-    /*color: whitesmoke;*/
-
     color: #C5C6C7;
 
     /*border-radius: 50%;
@@ -68,11 +66,7 @@ pre{
 
 p{
     font-family: 'Adobe Garamond Pro Regular';
-    /*color: rgb(141, 209, 40);
-    color: rgb(207, 198, 198);*/
-
     color: #C5C6C7;
-
     font-size: x-large;
 }
 
@@ -84,7 +78,7 @@ a{
 ul {
     list-style-type: none; /* removes the bullets */
     margin: 0;
-    padding:inherit;
+    padding: inherit;
     background-color: #1f2833;
     
   } 
@@ -101,5 +95,10 @@ li a{
 
 li a:hover{
     background-color: #0B0C10;
+}
+
+li a:active{
+        color: #C5C6C7;
+        background-color: #66FCF1;
 }
 /* Navigation menu styling ends */
