@@ -102,3 +102,51 @@ li a:active{
         background-color: #66FCF1;
 }
 /* Navigation menu styling ends */
+
+/* Dropdown Styling STARTS */
+
+.dropbtn {
+    background-color: #1f2833;
+    color: #66FCF1;
+    padding: 14px 16px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Adobe Garamond Pro Regular';
+    text-decoration: underline;
+    font-size:inherit;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #0B0C10;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0B0C10;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #66FCF1;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover{
+      background-color: #66FCF1;
+      color: #0B0C10;
+  }
+  
+  .show {display: block;}
+
+/* Dropdown Styling ENDS */
