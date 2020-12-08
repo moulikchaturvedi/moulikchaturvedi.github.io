@@ -57,11 +57,11 @@
     <!-- Search Bar Starts -->
 
     <div>
-        <input id="searchbar" onkeyup="myFunction()" type="text" placeholder="Search.." style="margin-left: 25%; margin-right: 23%; margin-bottom: 2%; width: 50%; padding: 1%; background-color: #0B0C10; color: #66FCF1;">
+        <input id="searchbar" onkeyup="Search()" type="text" placeholder="Search.." style="margin-left: 25%; margin-right: 23%; margin-bottom: 2%; width: 50%; padding: 1%; background-color: #0B0C10; color: #66FCF1;">
     </div>
 
     <script>
-        function myFunction() {
+        function Search() {
           // Declare variables
           var input, filter, ul, li, a, i, txtValue;
           input = document.getElementById('searchbar');
