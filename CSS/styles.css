@@ -150,3 +150,10 @@ li a:active{
   .show {display: block;}
 
 /* Dropdown Styling ENDS */
+
+.projectdiv{
+    border: 2px solid #C5C6C7;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin: 1%;
+}

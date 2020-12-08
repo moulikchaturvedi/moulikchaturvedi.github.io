@@ -2,7 +2,7 @@
 <html lang="en-US">
 
 <title>
-    PROJECTS  || MOULIK CHATURVEDI
+    PROJECTS || MOULIK CHATURVEDI
 </title>
     
 <head>
@@ -48,13 +48,66 @@
           }
         }
         </script>
-
-    <br>
-    <br>
     <!-- Navigation Bar ENDS-->
 
-    <h1 style="font-size: 45px; text-align: center;"><u>HEY!<br><br>Projects Tab is currently unavailable.<br>Check Back Later!</u></h1>
+    <h1 style="font-size: 45px; text-align: center;"><u>PROJECTS</u></h1>
+    <p style="text-align: center;"> Visit my Github <a href="https://github.com/moulikchaturvedi/">HERE</a> !</p>
+    <br>
 
+    <!-- Search Bar Starts -->
+
+    <div>
+        <input id="searchbar" onkeyup="myFunction()" type="text" placeholder="Search.." style="margin-left: 25%; margin-right: 23%; margin-bottom: 2%; width: 50%; padding: 1%; background-color: #0B0C10; color: #66FCF1;">
+    </div>
+
+    <script>
+        function myFunction() {
+          // Declare variables
+          var input, filter, ul, li, a, i, txtValue;
+          input = document.getElementById('searchbar');
+          filter = input.value.toUpperCase();
+          ul = document.getElementById("projectsUL");
+          li = ul.getElementsByTagName('div');
+        
+          // Loop through all list items, and hide those who don't match the search query
+          for (i = 0; i < li.length; i++) {
+            a = li[i].getElementsByTagName("a")[0];
+            txtValue = a.textContent || a.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+              li[i].style.display = "";
+            } else {
+              li[i].style.display = "none";
+            }
+          }
+        }
+        </script>
+
+    <!-- Search Bar Ends -->
+
+    <!-- Projects start here -->
+
+    <ul id="projectsUL" style="background-color: transparent;">
+    <div id="thecproject" class="projectdiv">
+        <h2><a href="https://github.com/moulikchaturvedi/c-projects" target="_blank" style="text-decoration: none; display: block;">The C Project</a></h2>
+        <a href="https://github.com/moulikchaturvedi/c-projects" style="text-decoration: none; display: block;"><p style="font-size: larger;">This repository documents some beginner level C programs which were taught to me during my university's course.</p></a>
+    </div>
+
+    <div id="covidwhatsapp" class="projectdiv">
+        <h2><a href="https://github.com/moulikchaturvedi/covid-whatsapp-update" target="_blank" style="text-decoration: none; display: block;">Covid WhatsApp Update API</a></h2>
+        <a href="https://github.com/moulikchaturvedi/covid-whatsapp-update" style="text-decoration: none; display: block;"><p style="font-size: larger;">This API fetches the current number of Covid-19 cases and updates the user through a WhatsApp message.</p></a>
+    </div>
+
+    <div id="pingpongneuralnet" class="projectdiv">
+        <h2><a href="https://github.com/moulikchaturvedi/pong_neural_network" target="_blank" style="text-decoration: none; display: block;">Ping-Pong Neural Network</a></h2>
+        <a href="https://github.com/moulikchaturvedi/pong_neural_network" style="text-decoration: none; display: block;"><p style="font-size: larger;">A Neural Network I built which plays the game of 'Pong' and learns on itself to get better overtime.</p></a>
+    </div>
+
+    <div id="thiswebsite" class="projectdiv">
+        <h2><a href="https://github.com/moulikchaturvedi/moulikchaturvedi.github.io" target="_blank" style="text-decoration: none; display: block;">This Website!</a></h2>
+        <a href="https://github.com/moulikchaturvedi/moulikchaturvedi.github.io" style="text-decoration: none; display: block;"><p style="font-size: larger;">The code to THIS WEBSITE!</p></a>
+    </div>
+    </ul>
+    <!-- Projects End Here -->
 
 </body>
 
