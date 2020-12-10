@@ -76,7 +76,7 @@
     <h1 id="feedbackheading" style="text-align: center;"><u>Feedback Form</u></h1>
 
     <div class="container">
-        <form id="feedbackform" action="action_page.php" method="POST">
+        <form id="feedbackform">
           <div class="row">
             <div class="col-25">
               <label for="name">Name</label>
@@ -104,12 +104,12 @@
             </div>
           </div>
 
-          <div class="row">
+          <div class="row" onclick="submit()">
             <input type="submit" value="Submit">
           </div>
         </form>
       </div>
-<!--
+
       <script>
           function submit() {
             var a= document.getElementsByTagName("input");
