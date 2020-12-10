@@ -71,5 +71,65 @@
 
     <h2 style="color: red; text-align: center;">This website is currently under construction.<br>Help offered is appreciated. In that case, Contact Me through my Social Media or email.</h2>
 
+    <!-- Feedback Form Starts -->
+    <br>    
+    <h1 id="feedbackheading" style="text-align: center;"><u>Feedback Form</u></h1>
+
+    <div class="container">
+        <form id="feedbackform" action="action_page.php">
+          <div class="row">
+            <div class="col-25">
+              <label for="name">Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="name" name="name" placeholder="Your name..">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="country">Country</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="country" name="country" placeholder="Your Country..">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="comments">Comments</label>
+            </div>
+            <div class="col-75">
+              <textarea id="comments" name="comments" placeholder="Your Feedback.." style="height:200px"></textarea>
+            </div>
+          </div>
+
+          <div class="row">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+<!--
+      <script>
+          function submit() {
+            var a= document.getElementsByTagName("input");
+            var index;
+            for (index = 0; index < a.length; index++) {
+                alert(a[index].textContent);
+            }
+
+            a= document.getElementsByTagName("textarea");
+            var inde;
+            for (inde = 0; inde < a.length; inde++) {
+                alert(a[inde].textContent);
+            }
+
+            document.getElementById("feedbackform").submit();
+            window.open('./index.html#feedbackform','_self');
+          }
+      </script>
+
+    <!-- Feedback Form Ends -->
+
 </body>
 </html>
