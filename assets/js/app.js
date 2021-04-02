@@ -20,8 +20,8 @@ let header = $(`
    <!--<li class="nav-item"><a class="nav-link" href="experience.html">Experience</a></li>-->
    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
    <!--<li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>-->
-   <li class="nav-item"><a class="nav-link" href="assets/Resume.pdf" target="_blank">Resume</a></li>
    <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
+   <li class="nav-item"><a class="nav-link" href="assets/Resume.pdf" target="_blank">Resume</a></li>
    <div class="bike">
    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-80 0 650 400" preserveAspectRatio="xMinYMin meet"> 
      <rect/>
@@ -198,17 +198,17 @@ let footer = $(`
           </div>
       </div>
 
-        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <!--<div class="col-lg-6 col-md-12 mb-4 mb-md-0">
           <div class="form-style-6">
-            <!--<h6 class="display">Get in Touch</h6>
+            <h6 class="display">Get in Touch</h6>
             <form>
               <input type="text" name="field1" placeholder="Your Name" />
               <input type="email" name="field2" placeholder="Email Address" />
               <textarea name="field3" placeholder="Type your Message"></textarea>
               <input type="submit" value="Send" />
-            </form>-->
+            </form>
           </div>
-        </div>
+        </div>-->
       </div>
     </div>
   </div>
