@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Adobe Garamond Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Adobe Garamond Pro Regular'), url('./Fonts/AGaramondPro-Regular.woff') format('woff');
+    }
+    
+
+@font-face {
+    font-family: 'Adobe Garamond Pro Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Adobe Garamond Pro Italic'), url('./Fonts/AGaramondPro-Italic.woff') format('woff');
+    }
+    
+
+@font-face {
+    font-family: 'Adobe Garamond Pro Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Adobe Garamond Pro Bold'), url('./Fonts/AGaramondPro-Bold.woff') format('woff');
+    }
+    
+
+@font-face {
+    font-family: 'Adobe Garamond Pro Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Adobe Garamond Pro Bold Italic'), url('./Fonts/AGaramondPro-BoldItalic.woff') format('woff');
+    }

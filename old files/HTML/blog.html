@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<title>
+    BLOGS || MOULIK CHATURVEDI
+</title>
+    
+<head>
+    <link rel="stylesheet" href="../CSS/fonts.css"/>
+    <link rel="stylesheet" href="../CSS/styles.css"/>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <ul class="navigationbar">
+        <li><a href="../home.html">HOME</a></li>
+        <li><a href="../HTML/projects.html">PROJECTS</a></li>
+        <li><a href="../HTML/blog.html">BLOG</a></li>
+        <li><a href="../home.html#aboutme">ABOUT</a></li>
+        <li><button onclick="myFunction()" class="dropbtn">REACH ME</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="https://www.instagram.com/multidimensionalspacesnake/" target="_blank">INSTAGRAM</a>
+                <a href="https://github.com/moulikchaturvedi" target="_blank">GITHUB</a>
+                <a href="https://www.linkedin.com/in/moulik-chaturvedi-7b7aab157/" target="_blank">LINKEDIN</a>
+                <a href="mailto:moulik.chaturvedi26@gmail.com" target="_blank">E-MAIL</a>
+              </div></li>
+    </ul>
+
+    <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+        
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+        </script>
+
+    <!-- Navigation Bar ENDS-->
+
+    <!-- Commented Header for later use
+    <h1 style="font-size: 45px; text-align: center;"><u>BLOGS</u></h1>
+    <pre style="text-align: center; font-size: x-large; margin: auto;">“Blogging is a conversation, not a code.”</pre>
+    <br>
+    -->
+
+    <h1 style="font-size: 45px; text-align: center;"><u>Hey!<br><br>Blogs are currently unavailable.<br>Check back soon!</u></h1>
+
+</body>
+
+</html>
