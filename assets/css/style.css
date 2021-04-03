@@ -295,8 +295,8 @@ html {
 
   .nav-link:hover{
     border-radius: 40px;
-    /* background: #ffffff; */
-    background: #0e76a8;
+    background: #ffffff;
+    /* background: #0e76a8; */
     box-shadow: 0px 0px 10px 0.5px rgba(0,0,0,0.2);
     width: 100%;
     

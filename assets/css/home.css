@@ -59,7 +59,7 @@ body{
 }
 
 .text .header {
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 .text {
@@ -130,7 +130,8 @@ body{
   background-color: #fff;
   margin: 8px;
   border-radius: 50%;
-  box-shadow: 2px 5px 5px var(--shadow-col);
+  /* box-shadow: 2px 5px 5px var(--shadow-col); */
+  box-shadow: 2px 3px 4px var(--shadow-col);
   text-decoration: none;
   transition: var(--trans-props);
 }
