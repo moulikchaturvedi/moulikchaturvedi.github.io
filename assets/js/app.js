@@ -209,6 +209,7 @@ let footer = $(`
             </form>
           </div>
         </div>-->
+        <div class="tag" style="margin-bottom: 0px;">Copyright ${new Date().getFullYear()}, Moulik Chaturvedi</div>
       </div>
     </div>
   </div>
